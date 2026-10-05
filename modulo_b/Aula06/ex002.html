@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            background-color: rgb(78, 118, 250);
+            color: white;
+            font: normal 20pt Arial;
+        }
+
+        h1 {
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Olá mundo</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+       let n1 = Number.parseInt(window.prompt("Digite um numero: ")); // Number.parseInt transforma em numero inteiro
+        let n2 = Number.parseInt(window.prompt("Digite outro numero: ")); // Number.parseFloat transforma em numero flutuante
+        // Posso tambem só usar Number e o JS se vira
+        let n3 = Number(window.prompt("Digite um numero: "));
+        let n4 = Number(window.prompt("Digite outro numero: "));
+        let soma = (n1 + n2 + n3 + n4); // Soma os dois numero convertidos anteriormente
+        window.alert(`A soma entre ${n1}, ${n2}, ${n3} e ${n4} da ${soma}`); //Imprime a variavel soma
+        
+        
+        /* Para converter para String (n é a coisa a ver convertida)
+        String()
+        n.toString
+        */
+    </script>
+</body>
+
+</html>
